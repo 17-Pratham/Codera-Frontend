@@ -1,0 +1,222 @@
+export const challengesData = [
+  {
+    "id": 1,
+    "title": "Print Welcome Message",
+    "difficulty": "Easy",
+    "language": "javascript",
+    "category": "Basics",
+    "xp": 10,
+    "description": "Print a welcome message for Codera users.",
+    "starterCode": "console.log('Welcome to Codera')",
+    "expectedOutput": "Welcome to Codera"
+  },
+  {
+    "id": 2,
+    "title": "Print Welcome Message",
+    "difficulty": "Easy",
+    "language": "python",
+    "category": "Basics",
+    "xp": 10,
+    "description": "Print a welcome message for Codera users.",
+    "starterCode": "print('Welcome to Codera')",
+    "expectedOutput": "Welcome to Codera"
+  },
+  {
+    "id": 3,
+    "title": "Print Welcome Message",
+    "difficulty": "Easy",
+    "language": "java",
+    "category": "Basics",
+    "xp": 10,
+    "description": "Print a welcome message for Codera users.",
+    "starterCode": "public class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Welcome to Codera\");\n  }\n}",
+    "expectedOutput": "Welcome to Codera"
+  },
+  {
+    "id": 4,
+    "title": "Print Welcome Message",
+    "difficulty": "Easy",
+    "language": "php",
+    "category": "Basics",
+    "xp": 10,
+    "description": "Print a welcome message for Codera users.",
+    "starterCode": "<?php\necho 'Welcome to Codera';\n?>",
+    "expectedOutput": "Welcome to Codera"
+  },
+  {
+    "id": 5,
+    "title": "Print Welcome Message",
+    "difficulty": "Easy",
+    "language": "typescript",
+    "category": "Basics",
+    "xp": 10,
+    "description": "Print a welcome message for Codera users.",
+    "starterCode": "console.log('Welcome to Codera')",
+    "expectedOutput": "Welcome to Codera"
+  },
+  {
+    "id": 6,
+    "title": "Find Even Number",
+    "difficulty": "Easy",
+    "language": "javascript",
+    "category": "Conditions",
+    "xp": 10,
+    "description": "Check whether a number is even.",
+    "starterCode": "let num = 8\n\nif(num % 2 === 0){\n  console.log('Even')\n}else{\n  console.log('Odd')\n}",
+    "expectedOutput": "Even"
+  },
+  {
+    "id": 7,
+    "title": "Find Even Number",
+    "difficulty": "Easy",
+    "language": "python",
+    "category": "Conditions",
+    "xp": 10,
+    "description": "Check whether a number is even.",
+    "starterCode": "num = 8\n\nif num % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')",
+    "expectedOutput": "Even"
+  },
+  {
+    "id": 8,
+    "title": "Find Even Number",
+    "difficulty": "Easy",
+    "language": "java",
+    "category": "Conditions",
+    "xp": 10,
+    "description": "Check whether a number is even.",
+    "starterCode": "public class Main {\n  public static void main(String[] args) {\n    int num = 8;\n\n    if(num % 2 == 0){\n      System.out.println(\"Even\");\n    }else{\n      System.out.println(\"Odd\");\n    }\n  }\n}",
+    "expectedOutput": "Even"
+  },
+  {
+    "id": 9,
+    "title": "Find Even Number",
+    "difficulty": "Easy",
+    "language": "php",
+    "category": "Conditions",
+    "xp": 10,
+    "description": "Check whether a number is even.",
+    "starterCode": "<?php\n$num = 8;\n\nif($num % 2 == 0){\n  echo 'Even';\n}else{\n  echo 'Odd';\n}\n?>",
+    "expectedOutput": "Even"
+  },
+  {
+    "id": 10,
+    "title": "Find Even Number",
+    "difficulty": "Easy",
+    "language": "typescript",
+    "category": "Conditions",
+    "xp": 10,
+    "description": "Check whether a number is even.",
+    "starterCode": "let num:number = 8\n\nif(num % 2 === 0){\n  console.log('Even')\n}else{\n  console.log('Odd')\n}",
+    "expectedOutput": "Even"
+  },
+  {
+    "id": 11,
+    "title": "Reverse a String",
+    "difficulty": "Medium",
+    "language": "javascript",
+    "category": "Strings",
+    "xp": 30,
+    "description": "Reverse the word Codera.",
+    "starterCode": "let text = 'Codera'\n\nconsole.log(text.split('').reverse().join(''))",
+    "expectedOutput": "aredoC"
+  },
+  {
+    "id": 12,
+    "title": "Reverse a String",
+    "difficulty": "Medium",
+    "language": "python",
+    "category": "Strings",
+    "xp": 30,
+    "description": "Reverse the word Codera.",
+    "starterCode": "text = 'Codera'\n\nprint(text[::-1])",
+    "expectedOutput": "aredoC"
+  },
+  {
+    "id": 13,
+    "title": "Reverse a String",
+    "difficulty": "Medium",
+    "language": "java",
+    "category": "Strings",
+    "xp": 30,
+    "description": "Reverse the word Codera.",
+    "starterCode": "public class Main {\n  public static void main(String[] args) {\n    String text = \"Codera\";\n\n    String reversed = new StringBuilder(text).reverse().toString();\n\n    System.out.println(reversed);\n  }\n}",
+    "expectedOutput": "aredoC"
+  },
+  {
+    "id": 14,
+    "title": "Reverse a String",
+    "difficulty": "Medium",
+    "language": "php",
+    "category": "Strings",
+    "xp": 30,
+    "description": "Reverse the word Codera.",
+    "starterCode": "<?php\n$text = 'Codera';\n\necho strrev($text);\n?>",
+    "expectedOutput": "aredoC"
+  },
+  {
+    "id": 15,
+    "title": "Reverse a String",
+    "difficulty": "Medium",
+    "language": "typescript",
+    "category": "Strings",
+    "xp": 30,
+    "description": "Reverse the word Codera.",
+    "starterCode": "let text:string = 'Codera'\n\nconsole.log(text.split('').reverse().join(''))",
+    "expectedOutput": "aredoC"
+  },
+  {
+    "id": 16,
+    "title": "FizzBuzz Challenge",
+    "difficulty": "Hard",
+    "language": "javascript",
+    "category": "Logic Building",
+    "xp": 80,
+    "description": "Print FizzBuzz from 1 to 15.",
+    "starterCode": "for(let i = 1; i <= 15; i++){\n\n  if(i % 3 === 0 && i % 5 === 0){\n    console.log('FizzBuzz')\n  }else if(i % 3 === 0){\n    console.log('Fizz')\n  }else if(i % 5 === 0){\n    console.log('Buzz')\n  }else{\n    console.log(i)\n  }\n}",
+    "expectedOutput": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+  },
+  {
+    "id": 17,
+    "title": "FizzBuzz Challenge",
+    "difficulty": "Hard",
+    "language": "python",
+    "category": "Logic Building",
+    "xp": 80,
+    "description": "Print FizzBuzz from 1 to 15.",
+    "starterCode": "for i in range(1, 16):\n\n    if i % 3 == 0 and i % 5 == 0:\n        print('FizzBuzz')\n    elif i % 3 == 0:\n        print('Fizz')\n    elif i % 5 == 0:\n        print('Buzz')\n    else:\n        print(i)",
+    "expectedOutput": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+  },
+  {
+    "id": 18,
+    "title": "FizzBuzz Challenge",
+    "difficulty": "Hard",
+    "language": "java",
+    "category": "Logic Building",
+    "xp": 80,
+    "description": "Print FizzBuzz from 1 to 15.",
+    "starterCode": "public class Main {\n  public static void main(String[] args) {\n\n    for(int i = 1; i <= 15; i++){\n\n      if(i % 3 == 0 && i % 5 == 0){\n        System.out.println(\"FizzBuzz\");\n      }else if(i % 3 == 0){\n        System.out.println(\"Fizz\");\n      }else if(i % 5 == 0){\n        System.out.println(\"Buzz\");\n      }else{\n        System.out.println(i);\n      }\n    }\n  }\n}",
+    "expectedOutput": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+  },
+  {
+    "id": 19,
+    "title": "FizzBuzz Challenge",
+    "difficulty": "Hard",
+    "language": "php",
+    "category": "Logic Building",
+    "xp": 80,
+    "description": "Print FizzBuzz from 1 to 15.",
+    "starterCode": "<?php\nfor($i = 1; $i <= 15; $i++){\n\n  if($i % 3 == 0 && $i % 5 == 0){\n    echo 'FizzBuzz' . PHP_EOL;\n  }elseif($i % 3 == 0){\n    echo 'Fizz' . PHP_EOL;\n  }elseif($i % 5 == 0){\n    echo 'Buzz' . PHP_EOL;\n  }else{\n    echo $i . PHP_EOL;\n  }\n}\n?>",
+    "expectedOutput": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+  },
+  {
+    "id": 20,
+    "title": "FizzBuzz Challenge",
+    "difficulty": "Hard",
+    "language": "typescript",
+    "category": "Logic Building",
+    "xp": 80,
+    "description": "Print FizzBuzz from 1 to 15.",
+    "starterCode": "for(let i:number = 1; i <= 15; i++){\n\n  if(i % 3 === 0 && i % 5 === 0){\n    console.log('FizzBuzz')\n  }else if(i % 3 === 0){\n    console.log('Fizz')\n  }else if(i % 5 === 0){\n    console.log('Buzz')\n  }else{\n    console.log(i)\n  }\n}",
+    "expectedOutput": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+  }
+]
